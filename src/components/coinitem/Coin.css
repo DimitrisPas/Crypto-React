@@ -1,0 +1,90 @@
+.cryptoCoin {
+  overflow: hidden;
+  text-align: center;
+  border-radius: 1rem;
+  position: relative;
+  width: 320px;
+  margin: 2em;
+  box-shadow: 1px 5px 5px rgba(0, 0, 0, 0.5);
+}
+
+.coinLogo {
+  width: 8em;
+  margin-top: 1.2em;
+  height: 40px;
+  width: 40px;
+  clip-path: circle(60px at center);
+}
+
+.coinNameWrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 0.5em;
+  font-weight: bold;
+}
+
+.coinName {
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+
+.coinSymbol {
+  text-transform: uppercase;
+  font-size: 0.6rem;
+  padding-left: 0.5em;
+}
+
+.priceContainerUP {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+  padding: 1.3em;
+  background-color: #11d811;
+}
+
+.priceContainerDOWN {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  border: none;
+  font-size: 1.2rem;
+  color: white;
+  padding: 1.3em;
+  background-color: #f00606;
+}
+
+svg {
+  background-color: transparent;
+}
+
+.priceChange {
+  background-color: transparent;
+  padding-left: 0.4em;
+  text-shadow: 0 0 14px black;
+}
+
+.coinPrice {
+  width: auto;
+  background-color: transparent;
+}
+
+.coinMarketcap {
+  width: auto;
+  padding-top: 0.8em;
+  background-color: transparent;
+}
+
+.coinVolume {
+  width: auto;
+  padding-top: 0.4em;
+  padding-bottom: 0.8em;
+  background-color: transparent;
+}
